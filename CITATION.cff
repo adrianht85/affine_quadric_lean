@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "Please cite this selective formalization and its companion paper when using the results."
+type: software
+title: "Affine quadric: selective Lean 4 formalization"
+authors:
+  - family-names: "Henríquez-Tamargo"
+    given-names: "Adrián"
+version: "0.1.0"
+license: MIT
+abstract: >-
+  Selective Lean 4 companion formalization for Hamiltonian Desingularization,
+  Collision Asymptotics, and Exact Critical Modes for Cohomogeneity-One IIB
+  Solitons on the Affine Quadric. Exact hypotheses and external boundaries are
+  documented in FORMALIZATION_SCOPE.md.
+keywords:
+  - Lean 4
+  - formalized mathematics
+  - Hamiltonian systems
+  - affine quadric
+  - collision asymptotics

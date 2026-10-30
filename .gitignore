@@ -1,0 +1,17 @@
+/.lake/
+/.elan/
+/build/
+/local-logs/
+/reproductions/
+*.olean
+*.ilean
+*.c
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.pyc
+__pycache__/
+.DS_Store
+Thumbs.db
