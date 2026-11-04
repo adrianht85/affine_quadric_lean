@@ -80,7 +80,7 @@ normalized proofs are preserved. No fractional beta powers or coordinate
 rescaling are introduced. This closes the previously explicit normalization
 gap, with the regular-clock and transport hypotheses retained. It makes no
 progress on analytic solution regularity or ambient curvature identification.
-The Hito10 original build and clean rebuild by the same executor passed on 30 October 2026: 56 project modules, 377 written theorems and 614 inventoried axiom reports. The current public packaging preserves the 59 accepted source/configuration files exactly. See [validation and reproduction instructions](docs/VALIDATION.md) for evidence and the remaining public-tree validation step.
+The Hito10 original build and clean rebuild by the same executor passed on 30 October 2026: 56 project modules, 377 written theorems and 614 inventoried axiom reports. The current public packaging preserves the 59 accepted source/configuration files exactly. See [validation and reproduction instructions](docs/VALIDATION.md) for the completed clean validation and its evidence.
 
 Historical source comments are preserved with the accepted bytes. This scope map uses the accepted V8 and actual declaration signatures. Package status does not certify all of Propositions 6.2/6.4, tensor reconstruction, global branch classification, or the whole article.
 
@@ -160,6 +160,9 @@ critical-momentum identities in this repository do not close those Section 7
 claims. Propositions 4.2, 6.2 and 6.4 are not asserted complete.
 
 These external dependencies are mathematical boundaries of the accepted corpus.
-Missing repository URL, paper/software DOI, ORCID and release date are separate
-publication-metadata tasks; they do not prevent local validation. None has been
-invented or assigned by this preparation.
+The author-confirmed repository is [https://github.com/adrianht85/affine_quadric_lean](https://github.com/adrianht85/affine_quadric_lean)
+and the author ORCID is [https://orcid.org/0009-0003-1452-1632](https://orcid.org/0009-0003-1452-1632).
+Software DOI, article DOI/URL and actual release/publication date remain pending
+publication metadata; they do not prevent local validation. Opening is planned
+for 5 November 2026, while this preparation phase keeps the repository private.
+No publication, release or Zenodo deposit is asserted by this metadata update.

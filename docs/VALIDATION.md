@@ -61,7 +61,8 @@ Raw new logs, process arguments/exit codes, installed revisions, initial
 inventory and built-module list are retained in the separate private review
 package; they are not mixed into this public source tree. The two public
 historical logs are preserved as historical evidence. The public tree contains
-no local machine paths or contact dossiers. The new run remains reproduction
+no local machine paths or contact dossiers; public author identifiers are
+recorded separately in citation metadata. The new run remains reproduction
 by the same executor on the same machine, not independent human validation.
 
 ## Git bytes and local publication status
@@ -73,12 +74,33 @@ blobs and a fresh local checkout kept their accepted SHA-256 values.
 Final documentation-only edits and manifest refresh do not require another
 Lean build; final commit and checkout hashes are recorded in the private review.
 
-No remote URL is configured in the new local repository. No external/private
-remote history, ownership, visibility or accessibility was verified. No push,
-public release, visibility change or Zenodo publication was performed.
-The exact final local commit can be read with git rev-parse HEAD; there is no
-release tag yet. Repository URL, software version DOI, article URL/DOI, ORCID
-and release date remain pending. Software and article DOI are separate.
+At the accepted packaging snapshot of 30 October 2026, no remote URL was
+configured and no external/private remote history, ownership, visibility or
+accessibility had been verified. No push, release or publication was part of
+that accepted validation. These are historical statements about that snapshot.
+
+On 4 November 2026, citation metadata and documentation were updated using
+the author's confirmed repository and ORCID:
+
+- Repository: [https://github.com/adrianht85/affine_quadric_lean](https://github.com/adrianht85/affine_quadric_lean).
+- Author: [Adrián Henríquez-Tamargo](https://orcid.org/0009-0003-1452-1632).
+
+This documentary update preserves all 59 accepted source/configuration files,
+their source manifest, both historical public audit logs and the prior build
+and direct-audit evidence. No new Lean compilation or axiom audit is performed
+for metadata-only edits. PUBLIC_FILES_SHA256.txt is refreshed for the updated
+public documents; it is separate from the frozen source manifest.
+
+The authorized upload target must remain private during this phase. Actual
+account, access, visibility, empty-target checks and upload results are recorded
+in a separate private operational report, outside this source tree. This page
+does not assert those network checks before their execution. The current
+commit can be read with git rev-parse HEAD.
+
+Opening is planned for 5 November 2026. This planned date is not an actual
+release/publication date. Software DOI, article DOI/URL, release URL and actual
+publication date remain pending; software and article DOI are separate. No
+tag, release, visibility change or Zenodo deposit is created by this update.
 The software MIT license does not assign a license to the article.
 
 ## Reproduce the frozen sources

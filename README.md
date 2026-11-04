@@ -2,7 +2,7 @@
 
 ## Purpose and paper
 
-Companion formalization for Adrián Henríquez-Tamargo, *Hamiltonian Desingularization, Collision Asymptotics, and Exact Critical Modes for Cohomogeneity-One IIB Solitons on the Affine Quadric*. This is a selective formalization; it does not certify the whole paper. Begin with [AffineQuadric/](AffineQuadric/) and the scope table below.
+Companion formalization for [Adrián Henríquez-Tamargo](https://orcid.org/0009-0003-1452-1632), *Hamiltonian Desingularization, Collision Asymptotics, and Exact Critical Modes for Cohomogeneity-One IIB Solitons on the Affine Quadric*. This is a selective formalization; it does not certify the whole paper. Begin with [AffineQuadric/](AffineQuadric/) and the scope table below.
 
 ## Fixed environment and reproduction
 
@@ -34,4 +34,6 @@ For a direct axiom audit, run `lake env lean -DwarningAsError=true AffineQuadric
 
 ## Detailed map
 
-[FORMALIZATION_SCOPE.md](FORMALIZATION_SCOPE.md) gives theorem anchors, mathematical input hypotheses, external dependencies and an inventory of all 56 Lean files. [Development method](docs/DEVELOPMENT_METHOD.md) records the assisted workflow and its limits. Project code is under the [MIT license](LICENSE); use [CITATION.cff](CITATION.cff) for citation metadata. Release URL and DOI will be recorded after they have been assigned.
+[FORMALIZATION_SCOPE.md](FORMALIZATION_SCOPE.md) gives theorem anchors, mathematical input hypotheses, external dependencies and an inventory of all 56 Lean files. [Development method](docs/DEVELOPMENT_METHOD.md) records the assisted workflow and its limits. Project code is under the [MIT license](LICENSE); use [CITATION.cff](CITATION.cff) for citation metadata. The source repository is [https://github.com/adrianht85/affine_quadric_lean](https://github.com/adrianht85/affine_quadric_lean). Software DOI, article DOI/URL, release URL and actual publication date remain pending. The software MIT license does not assign a license to the article.
+
+This preparation phase keeps the GitHub repository **private**. Opening is planned for **5 November 2026**; this is a plan, not a completed publication, release or Zenodo deposit.

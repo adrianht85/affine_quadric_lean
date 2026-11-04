@@ -5,6 +5,8 @@ title: "Affine quadric: selective Lean 4 formalization"
 authors:
   - family-names: "Henríquez-Tamargo"
     given-names: "Adrián"
+    orcid: "https://orcid.org/0009-0003-1452-1632"
+repository-code: "https://github.com/adrianht85/affine_quadric_lean"
 version: "0.1.0"
 license: MIT
 abstract: >-
