@@ -97,11 +97,32 @@ in a separate private operational report, outside this source tree. This page
 does not assert those network checks before their execution. The current
 commit can be read with git rev-parse HEAD.
 
-Opening is planned for 5 November 2026. This planned date is not an actual
-release/publication date. Software DOI, article DOI/URL, release URL and actual
-publication date remain pending; software and article DOI are separate. No
-tag, release, visibility change or Zenodo deposit is created by this update.
-The software MIT license does not assign a license to the article.
+The preparation of 4 November 2026 recorded 5 November as a planned opening
+date. That plan did not establish an actual opening or release/publication date.
+
+### Documentary preparation — 5 November 2026
+
+The authenticated account and remote main were checked against the accepted
+base `a2bb89fc81adf9d0a6c6998191cf31185b6d9a4e`. The repository remains private;
+public opening, the first software release and software archival publication
+remain pending. These checks are separate from the earlier Lean validation.
+Detailed operational records remain outside the public source tree.
+
+Only documentation and metadata are updated. All 59 protected source/configuration
+hashes are checked against the accepted manifest, and the historical evidence
+above is preserved. No Lean build or axiom audit is repeated. The reviewed
+English [version 0.1.0 notes](RELEASE_NOTES_0.1.0.md) describe the prepared
+software and do not establish a release date, tag or release commit.
+
+The paper DOI `10.5281/zenodo.23956688` is reserved in a Zenodo draft according
+to the author; the paper is not yet published and the DOI has not yet been
+definitively registered. This metadata update does not verify DOI resolution
+or access the private paper draft. The intended software-to-preprint relation
+is `isSupplementTo`, with `scheme: doi` and `resource_type: publication-preprint`.
+That paper DOI is not the software DOI. The software DOI, release URL and
+actual release/publication dates remain pending; `date-released` is not set.
+No tag, release, visibility change or Zenodo publication is performed by this
+metadata update. The software MIT license does not assign a license to the article.
 
 ## Reproduce the frozen sources
 

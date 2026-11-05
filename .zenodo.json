@@ -7,7 +7,7 @@
       "orcid": "0009-0003-1452-1632"
     }
   ],
-  "description": "Selective Lean 4 companion formalization for Hamiltonian Desingularization, Collision Asymptotics, and Exact Critical Modes for Cohomogeneity-One IIB Solitons on the Affine Quadric. The repository documents exact mathematical hypotheses and external boundaries in FORMALIZATION_SCOPE.md. Lean 4.24.0 and all dependencies are pinned.",
+  "description": "Selective Lean 4 companion formalization for Hamiltonian Desingularization, Collision Asymptotics, and Exact Critical Modes for Cohomogeneity-One IIB Solitons on the Affine Quadric. The repository documents exact mathematical hypotheses and external boundaries in FORMALIZATION_SCOPE.md. Lean 4.24.0 and all dependencies are pinned. The companion preprint DOI 10.5281/zenodo.23956688 is reserved in a Zenodo draft; the paper is not yet published and the DOI has not yet been definitively registered. This is the paper DOI, not the software DOI. The software DOI remains pending.",
   "license": "MIT",
   "keywords": [
     "Lean 4",
@@ -19,9 +19,10 @@
   "version": "0.1.0",
   "related_identifiers": [
     {
-      "identifier": "https://github.com/adrianht85/affine_quadric_lean",
+      "identifier": "10.5281/zenodo.23956688",
       "relation": "isSupplementTo",
-      "scheme": "url"
+      "scheme": "doi",
+      "resource_type": "publication-preprint"
     }
   ]
 }

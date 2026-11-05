@@ -162,7 +162,10 @@ claims. Propositions 4.2, 6.2 and 6.4 are not asserted complete.
 These external dependencies are mathematical boundaries of the accepted corpus.
 The author-confirmed repository is [https://github.com/adrianht85/affine_quadric_lean](https://github.com/adrianht85/affine_quadric_lean)
 and the author ORCID is [https://orcid.org/0009-0003-1452-1632](https://orcid.org/0009-0003-1452-1632).
-Software DOI, article DOI/URL and actual release/publication date remain pending
-publication metadata; they do not prevent local validation. Opening is planned
-for 5 November 2026, while this preparation phase keeps the repository private.
-No publication, release or Zenodo deposit is asserted by this metadata update.
+The paper DOI `10.5281/zenodo.23956688` is reserved in a Zenodo draft;
+the paper is not yet published and its DOI has not yet been definitively
+registered. This is the paper DOI, not the software DOI. The software DOI,
+release URL and actual release/publication dates remain pending metadata.
+As of 5 November 2026, the repository remains private. Public opening,
+the first software release and software archival publication remain pending.
+This documentary preparation does not publish a release or a Zenodo record.
