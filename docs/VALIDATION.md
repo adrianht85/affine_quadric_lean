@@ -110,21 +110,22 @@ release and software archival publication were pending. These historical
 checks are separate from the earlier Lean validation. Detailed operational
 records remain outside the public source tree.
 
-Only documentation and metadata are updated. All 59 protected source/configuration
-hashes are checked against the accepted manifest, and the historical evidence
-above is preserved. No Lean build or axiom audit is repeated. The reviewed
-English [version 0.1.0 notes](RELEASE_NOTES_0.1.0.md) describe the prepared
-software and do not establish a release date, tag or release commit.
+In that pre-release update, only documentation and metadata were changed.
+All 59 protected source/configuration hashes were checked against the accepted
+manifest, and the historical evidence above was preserved. No Lean build or
+axiom audit was repeated. The reviewed English [version 0.1.0 notes](RELEASE_NOTES_0.1.0.md)
+then described the prepared software without establishing a release date,
+tag or release commit. Those original release notes remain unchanged.
 
-The paper DOI `10.5281/zenodo.23956688` is reserved in a Zenodo draft according
-to the author; the paper is not yet published and the DOI has not yet been
-definitively registered. This metadata update does not verify DOI resolution
-or access the private paper draft. The intended software-to-preprint relation
-is `isSupplementTo`, with `scheme: doi` and `resource_type: publication-preprint`.
-That paper DOI is not the software DOI. The software DOI, release URL and
-actual release/publication dates remain pending; `date-released` is not set.
-No tag, release, visibility change or Zenodo publication is performed by this
-metadata update. The software MIT license does not assign a license to the article.
+At that pre-release stage, the paper DOI `10.5281/zenodo.23956688` was reserved
+in a Zenodo draft according to the author; the paper had not yet been published.
+That metadata update did not verify DOI resolution or access the private draft.
+The intended software-to-preprint relation was `isSupplementTo`, with `scheme: doi`
+and `resource_type: publication-preprint`. The software DOI, release URL and
+actual release/publication dates were then pending, and `date-released` was
+not set. That update created no tag or release, changed no visibility and
+performed no Zenodo publication. The software MIT license did not assign a
+license to the article; the later published preprint has its own license below.
 
 ### Public repository status — 5 November 2026
 
@@ -133,13 +134,26 @@ access, GitHub visibility and remote main were checked against the accepted
 base `822ade22b4697de9ee7dcf2862e08cccf508c76d`. The private phases and their
 checks above are retained as historical evidence, not as the current visibility.
 
-The author reports enabling this repository in the GitHub–Zenodo integration.
-That activation is separate from releasing or archiving the software. The first
-software release and the software archive in Zenodo remain pending. The paper
-DOI `10.5281/zenodo.23956688` remains reserved; it is not the software DOI.
-The software DOI and software release/archival publication dates remain pending;
-`date-released` is not set. This documentary update creates no tags or releases,
-performs no Zenodo publication and does not change repository visibility.
+At the public-opening check, the author reported enabling the GitHub–Zenodo
+integration. The first software release and archive were still pending; the
+paper DOI was still described as reserved, the software DOI was pending, and
+`date-released` was not set. That opening-status update created no tags or
+releases, performed no Zenodo publication and did not change visibility.
+These are historical facts about the opening phase, before the publications below.
+
+### Published release and archives — 5 November 2026
+
+The repository is public. [Software 0.1.0](https://github.com/adrianht85/affine_quadric_lean/releases/tag/v0.1.0) was published at **2026-11-05T12:36:49Z**, with tag `v0.1.0` pointing to `e3efcf4e2a46da9b84e6928935d43eb6d9ec854a`. The automated Zenodo archive is [record 23979530](https://zenodo.org/records/23979530). The software version DOI is [10.5281/zenodo.23979530](https://doi.org/10.5281/zenodo.23979530); the software concept DOI is [10.5281/zenodo.23979529](https://doi.org/10.5281/zenodo.23979529). The software license is MIT.
+
+The companion preprint was published on **2026-11-05**, in [record 23956688](https://zenodo.org/records/23956688), under **CC BY 4.0**. Its version DOI is [10.5281/zenodo.23956688](https://doi.org/10.5281/zenodo.23956688) and its concept DOI is [10.5281/zenodo.23956687](https://doi.org/10.5281/zenodo.23956687). Version and concept identifiers for the article are distinct from those for the software. The software supplements the preprint (`isSupplementTo`, `scheme: doi`, `resource_type: publication-preprint`).
+
+The software's main citation metadata in `CITATION.cff` now identify version 0.1.0, with its version DOI and `date-released: 2026-11-05`. The title and MIT license remain those of the software. A concept DOI identifies a collection of versions; use the version DOI to cite this specific release.
+
+The DOI for software 0.1.0 is not assigned as a top-level `doi` or `prereserve_doi` in `.zenodo.json`, and no fixed `publication_date` is set there. Its description names the published 0.1.0 identifiers as version-specific citation facts. Future software versions require their own version citation metadata and DOI; this DOI is not a reusable registration setting.
+
+This documentation-only follow-up on `main` preserves the 59 protected files, all earlier execution evidence and the original `RELEASE_NOTES_0.1.0.md`. The release notes retain their release-time wording, which predates final DOI assignment and article publication. Their historical pending/reserved statements are not the current publication status. Neither the published tag nor the archived ZIP has been changed. No new software version, release, deposit, Lean build or axiom audit is produced by this closure.
+
+Updating the repository's `.zenodo.json` does not edit the already published Zenodo record. Any separate proposal to correct that record's description is kept outside the public tree; no Zenodo edit is performed by this closure.
 
 ## Reproduce the frozen sources
 

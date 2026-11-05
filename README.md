@@ -34,6 +34,19 @@ For a direct axiom audit, run `lake env lean -DwarningAsError=true AffineQuadric
 
 ## Detailed map
 
-[FORMALIZATION_SCOPE.md](FORMALIZATION_SCOPE.md) gives theorem anchors, mathematical input hypotheses, external dependencies and an inventory of all 56 Lean files. [Development method](docs/DEVELOPMENT_METHOD.md) records the assisted workflow and its limits. Project code is under the [MIT license](LICENSE); use [CITATION.cff](CITATION.cff) for citation metadata. The source repository is [https://github.com/adrianht85/affine_quadric_lean](https://github.com/adrianht85/affine_quadric_lean). The paper DOI `10.5281/zenodo.23956688` is reserved in a Zenodo draft; the paper is not yet published and its DOI has not yet been definitively registered. This is the paper DOI, not the software DOI. The software DOI, software release URL and software release/archival publication dates remain pending. The software MIT license does not assign a license to the article.
+[FORMALIZATION_SCOPE.md](FORMALIZATION_SCOPE.md) gives theorem anchors, mathematical input hypotheses, external dependencies and an inventory of all 56 Lean files. [Development method](docs/DEVELOPMENT_METHOD.md) records the assisted workflow and its limits. The preserved [version 0.1.0 release notes](docs/RELEASE_NOTES_0.1.0.md) are the original release-time text; the publication details below record the completed publications.
 
-The GitHub repository was made **public on 5 November 2026**. The first software release and archiving of the software in Zenodo remain pending. The [version 0.1.0 notes](docs/RELEASE_NOTES_0.1.0.md) describe the prepared software; their presence does not constitute a release or publication.
+## Publication and citation
+
+The [repository](https://github.com/adrianht85/affine_quadric_lean) became public on **5 November 2026**. Software **0.1.0** was [released](https://github.com/adrianht85/affine_quadric_lean/releases/tag/v0.1.0) at **2026-11-05T12:36:49Z**, with tag `v0.1.0` fixed at commit [`e3efcf4e2a46da9b84e6928935d43eb6d9ec854a`](https://github.com/adrianht85/affine_quadric_lean/commit/e3efcf4e2a46da9b84e6928935d43eb6d9ec854a). The software was automatically [archived in Zenodo](https://zenodo.org/records/23979530).
+
+The companion [preprint](https://zenodo.org/records/23956688), named above, was published on **5 November 2026**. Cite a version DOI for the specific software version or preprint; concept DOIs identify their respective collections of versions.
+
+| Object | Version DOI | Concept DOI | License |
+| --- | --- | --- | --- |
+| Software 0.1.0 | [10.5281/zenodo.23979530](https://doi.org/10.5281/zenodo.23979530) | [10.5281/zenodo.23979529](https://doi.org/10.5281/zenodo.23979529) | [MIT](LICENSE) |
+| Companion preprint, published 2026-11-05 | [10.5281/zenodo.23956688](https://doi.org/10.5281/zenodo.23956688) | [10.5281/zenodo.23956687](https://doi.org/10.5281/zenodo.23956687) | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) |
+
+The software is a supplement to the preprint (`isSupplementTo`). The software license and the article license are separate. [CITATION.cff](CITATION.cff) identifies **the software version 0.1.0**, not the article, as its principal citation object.
+
+The `main` branch includes post-publication documentation corrections. These corrections do not change the published tag, the release notes or the archived source ZIP, and do not constitute a new software version.

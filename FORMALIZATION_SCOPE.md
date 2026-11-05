@@ -160,12 +160,10 @@ critical-momentum identities in this repository do not close those Section 7
 claims. Propositions 4.2, 6.2 and 6.4 are not asserted complete.
 
 These external dependencies are mathematical boundaries of the accepted corpus.
-The author-confirmed repository is [https://github.com/adrianht85/affine_quadric_lean](https://github.com/adrianht85/affine_quadric_lean)
-and the author ORCID is [https://orcid.org/0009-0003-1452-1632](https://orcid.org/0009-0003-1452-1632).
-The paper DOI `10.5281/zenodo.23956688` is reserved in a Zenodo draft;
-the paper is not yet published and its DOI has not yet been definitively
-registered. This is the paper DOI, not the software DOI. The software DOI,
-software release URL and software release/archival publication dates remain pending metadata.
-The repository was made public on 5 November 2026. The first software release
-and archiving of the software in Zenodo remain pending.
-This documentary preparation does not publish a release or a Zenodo record.
+The source [repository](https://github.com/adrianht85/affine_quadric_lean) became public on 5 November 2026. The author is [Adrián Henríquez-Tamargo](https://orcid.org/0009-0003-1452-1632).
+
+Software 0.1.0 was [released](https://github.com/adrianht85/affine_quadric_lean/releases/tag/v0.1.0) on 5 November 2026 at 12:36:49 UTC, with `v0.1.0` fixed at commit `e3efcf4e2a46da9b84e6928935d43eb6d9ec854a`, and [archived in Zenodo](https://zenodo.org/records/23979530). Its version DOI is [10.5281/zenodo.23979530](https://doi.org/10.5281/zenodo.23979530); its concept DOI is [10.5281/zenodo.23979529](https://doi.org/10.5281/zenodo.23979529). The software is licensed under MIT.
+
+The companion [preprint](https://zenodo.org/records/23956688) was published on 5 November 2026 under CC BY 4.0. Its version DOI is [10.5281/zenodo.23956688](https://doi.org/10.5281/zenodo.23956688); its concept DOI is [10.5281/zenodo.23956687](https://doi.org/10.5281/zenodo.23956687). These are article identifiers, separate from the software identifiers and license. The software-to-preprint relation is `isSupplementTo`, with `resource_type: publication-preprint` in the existing Zenodo metadata scheme.
+
+Version DOIs identify the specific software version or preprint; concept DOIs identify their respective collections of versions. Publication does not discharge any external mathematical dependency listed above. The original release notes and archived sources remain unchanged; subsequent documentation on `main` records publication and citation facts without extending the formalized scope.

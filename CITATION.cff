@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "Please cite this selective formalization and its companion paper when using the results."
+message: "Please cite software version 0.1.0 using its version DOI, and cite the companion preprint separately where appropriate."
 type: software
 title: "Affine quadric: selective Lean 4 formalization"
 authors:
@@ -7,6 +7,9 @@ authors:
     given-names: "Adrián"
     orcid: "https://orcid.org/0009-0003-1452-1632"
 repository-code: "https://github.com/adrianht85/affine_quadric_lean"
+url: "https://zenodo.org/records/23979530"
+doi: "10.5281/zenodo.23979530"
+date-released: "2026-11-05"
 version: "0.1.0"
 license: MIT
 abstract: >-
