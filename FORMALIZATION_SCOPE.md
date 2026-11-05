@@ -165,7 +165,7 @@ and the author ORCID is [https://orcid.org/0009-0003-1452-1632](https://orcid.or
 The paper DOI `10.5281/zenodo.23956688` is reserved in a Zenodo draft;
 the paper is not yet published and its DOI has not yet been definitively
 registered. This is the paper DOI, not the software DOI. The software DOI,
-release URL and actual release/publication dates remain pending metadata.
-As of 5 November 2026, the repository remains private. Public opening,
-the first software release and software archival publication remain pending.
+software release URL and software release/archival publication dates remain pending metadata.
+The repository was made public on 5 November 2026. The first software release
+and archiving of the software in Zenodo remain pending.
 This documentary preparation does not publish a release or a Zenodo record.

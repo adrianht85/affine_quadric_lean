@@ -91,22 +91,24 @@ and direct-audit evidence. No new Lean compilation or axiom audit is performed
 for metadata-only edits. PUBLIC_FILES_SHA256.txt is refreshed for the updated
 public documents; it is separate from the frozen source manifest.
 
-The authorized upload target must remain private during this phase. Actual
-account, access, visibility, empty-target checks and upload results are recorded
-in a separate private operational report, outside this source tree. This page
-does not assert those network checks before their execution. The current
-commit can be read with git rev-parse HEAD.
+During the private upload phase of 4 November 2026, the destination was
+required to remain private. Account, access, visibility, empty-target checks
+and upload results are retained in a separate private operational report,
+outside this source tree. Those checks describe the private upload phase,
+not a public opening or software release. The current commit can be read
+with git rev-parse HEAD.
 
 The preparation of 4 November 2026 recorded 5 November as a planned opening
 date. That plan did not establish an actual opening or release/publication date.
 
 ### Documentary preparation — 5 November 2026
 
-The authenticated account and remote main were checked against the accepted
-base `a2bb89fc81adf9d0a6c6998191cf31185b6d9a4e`. The repository remains private;
-public opening, the first software release and software archival publication
-remain pending. These checks are separate from the earlier Lean validation.
-Detailed operational records remain outside the public source tree.
+Earlier on 5 November 2026, the authenticated account and remote main were
+checked against the accepted base `a2bb89fc81adf9d0a6c6998191cf31185b6d9a4e`.
+At that point the repository was private; public opening, the first software
+release and software archival publication were pending. These historical
+checks are separate from the earlier Lean validation. Detailed operational
+records remain outside the public source tree.
 
 Only documentation and metadata are updated. All 59 protected source/configuration
 hashes are checked against the accepted manifest, and the historical evidence
@@ -123,6 +125,21 @@ That paper DOI is not the software DOI. The software DOI, release URL and
 actual release/publication dates remain pending; `date-released` is not set.
 No tag, release, visibility change or Zenodo publication is performed by this
 metadata update. The software MIT license does not assign a license to the article.
+
+### Public repository status — 5 November 2026
+
+The author made the repository public on 5 November 2026. Anonymous public
+access, GitHub visibility and remote main were checked against the accepted
+base `822ade22b4697de9ee7dcf2862e08cccf508c76d`. The private phases and their
+checks above are retained as historical evidence, not as the current visibility.
+
+The author reports enabling this repository in the GitHub–Zenodo integration.
+That activation is separate from releasing or archiving the software. The first
+software release and the software archive in Zenodo remain pending. The paper
+DOI `10.5281/zenodo.23956688` remains reserved; it is not the software DOI.
+The software DOI and software release/archival publication dates remain pending;
+`date-released` is not set. This documentary update creates no tags or releases,
+performs no Zenodo publication and does not change repository visibility.
 
 ## Reproduce the frozen sources
 
